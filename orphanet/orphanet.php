@@ -29,8 +29,6 @@ SOFTWARE.
  * @author Michel Dumontier
 */
 
-require_once(__DIR__.'/../../php-lib/bio2rdfapi.php');
-
 class ORPHANETParser extends Bio2RDFizer 
 {
 	private $filemap = array(
