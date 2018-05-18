@@ -28,7 +28,7 @@ SOFTWARE.
  * @author Michel Dumontier
 */
 
-require_once(__DIR__.'/../../php-lib/bio2rdfapi.php');
+#require_once(__DIR__.'/../../php-lib/bio2rdfapi.php');
 
 class PubmedParser extends Bio2RDFizer
 {

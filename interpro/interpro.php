@@ -20,8 +20,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-require_once(__DIR__.'/../../php-lib/bio2rdfapi.php');
-require_once(__DIR__.'/../../php-lib/xmlapi.php');
+//require_once(__DIR__.'/../../php-lib/bio2rdfapi.php');
+//require_once(__DIR__.'/../../php-lib/xmlapi.php');
 /**
  * InterPro RDFizer
  * @version 2.0 

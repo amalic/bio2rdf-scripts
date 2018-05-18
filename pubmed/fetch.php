@@ -6,7 +6,7 @@ $output_dir = "$base_dir/pmid";
 @mkdir($input_dir);
 @mkdir($output_dir);
 
-system("cd $input_dir; /usr/bin/lftp -e 'o ftp://ftp.nlm.nih.gov/nlmdata/.medleasebaseline/gz && mirror --verbose && quit'; /usr/bin/lftp -e 'o ftp://ftp.nlm.nih.gov/nlmdata/.medlease/gz && mirror --verbose && quit'");
+system("cd $input_dir; /usr/bin/lftp -e 'o ftp://ftp.ncbi.nlm.nih.gov/pubmed/baseline && mirror --verbose && quit'; /usr/bin/lftp -e 'o ftp://ftp.ncbi.nlm.nih.gov/pubmed/updatefiles && mirror --verbose && quit'");
 exit;
 
 
